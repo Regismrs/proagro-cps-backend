@@ -21,5 +21,6 @@ class ComunicadoClientFilter(FilterSet):
         model = ComunicadoCliente
         fields = {
             'lavoura_data_colheita',
+            'inserted_at',
             'evento'
         }
