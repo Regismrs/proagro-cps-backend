@@ -1,0 +1,5 @@
+# Backend
+/.venv/*
+data.json
+*.sqlite3
+/front/.env
