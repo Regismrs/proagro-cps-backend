@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/*
+core/__pycache__/
+front/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -49,6 +50,10 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+
+# DRF stuff
+core/migrations/
+core/migrations/__pycache__/
 
 # pyenv
 .python-version
