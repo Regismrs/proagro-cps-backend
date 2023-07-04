@@ -1,5 +1,11 @@
-# Proagro - Comunicação de Perda Simplificada (CPS-Backend)
+# Proagro - CPS (Backend)
 
-O Proagro - Comunicação de perda simplificada foi criada para gerenciar de forma eficiente todo o fluxo de comunicação de perdas, otimizando essa etapa fundamental no processo de solicitação do benefício para os produtores rurais, facilitando a administração do programa Proagro e agilizando a assistência aos produtores afetados por eventos naturais. 
-Inspirado no programa Proagro, administrado pelo Banco Central do Brasil, esta aplicação desenvolvida em Python contempla o backend do projeto, utilizando o Django Rest Framework para criar uma API robusta, escalável e de fácil manutenção, garantindo a segurança e a confiabilidade dos dados. Através da REST API, os analistas podem enviar e consultar os dados sobre o produtor, a lavoura afetada e o evento causador da perda.
+## Proagro
+O Proagro é um programa administrado pelo Banco Central do Brasil, que visa exonerar o produtor rural de obrigações financeiras relativas à operações de crédito, em casos de ocorrência de perdas na lavoura, ocasionadas por  fenômenos naturais.  
+
+## Comunicação de Perda Simplificada (CPS)
+A Comunicação de perda simplificada foi criada para gerenciar de forma eficiente todo o fluxo de comunicação de perdas, otimizando essa etapa fundamental no processo de solicitação do benefício do Proagro para os produtores rurais, facilitando a administração dos dados coletados e agilizando a assistência aos produtores afetados por eventos naturais. 
+
+## Backend
+Esta aplicação desenvolvida em Python contempla o backend do projeto, utilizando o Django Rest Framework para criar uma API robusta, escalável e de fácil manutenção, garantindo a segurança e a confiabilidade dos dados. Através da REST API, os analistas podem enviar e consultar os dados sobre o produtor, a lavoura afetada e o evento causador da perda.
 Para mais informações da aplicação Frontend desenvolvida com TypeScript/Angular confira esse outro [repositório](http://google.com) 
