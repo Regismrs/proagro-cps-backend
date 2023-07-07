@@ -2,6 +2,7 @@
 ## Comunicação de Perda Simplificada (CPS)
 A Comunicação de perda simplificada foi criada para gerenciar de forma eficiente todo o fluxo de comunicação de perdas, otimizando essa etapa fundamental no processo de solicitação do benefício do Proagro para os produtores rurais.
 
+<<<<<<< HEAD
 Este repositório é destinado a parte **backend** do projeto. Para mais informações da aplicação Frontend desenvolvida com TypeScript/Angular confira o repositório [proagro-cps-frontend](http://google.com).
 
 ## Detalhes do projeto
@@ -55,3 +56,8 @@ Como admin, usando o usuário e senha criados anteriormente, você pode acessar 
 >Para mais informações sobre os endpoints e utilização da api aconselhamos que consulte a documentação disponível em [https://apiary.io/orgacps](http://google.com)
 
 Localmente você pode testar os endpoints no endereço [http://localhost:8000/comunicados/](http://localhost:8000/comunicados/)
+=======
+Este repositório é destinado à parte **backend** do projeto. A aplicação do lado servidor é desenvolvida em Python, utilizando o Django Rest Framework para criar uma API robusta, escalável e de fácil manutenção, garantindo a segurança e a confiabilidade dos dados. Através da REST API, os analistas podem enviar e consultar os dados sobre o produtor, a lavoura afetada e o evento causador da perda.
+
+Para mais informações da aplicação Frontend desenvolvida com TypeScript/Angular confira esse outro [repositório](http://google.com) 
+>>>>>>> fa331b25b9eff1b45716c6201935a52777c0e382
