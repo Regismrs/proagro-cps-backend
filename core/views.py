@@ -26,7 +26,7 @@ class ComunicadoClienteListView(generics.ListAPIView):
     serializer_class = ComunicadoSimpleSerializer
     filter_backends = [filters.DjangoFilterBackend, drf_filters.OrderingFilter]
     filterset_class = ComunicadoClientFilter
-    ordering_fields = ['id', 'nome', 'lavoura_data_colheita', 'inserted_at']
+    ordering_fields = ['nome', 'lavoura_data_colheita', 'inserted_at']
 
     def listEvento(self, request, *args, **kwargs):
         if (request.GET.get('evento__ne')):
