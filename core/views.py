@@ -17,8 +17,8 @@ from .filters import ComunicadoClientFilter
 class ComunicadoClienteViewSet(viewsets.ModelViewSet):
     queryset = ComunicadoCliente.objects.all().order_by('id')
     serializer_class = ComunicadoClienteSerializer
-    #authentication_classes = [ TokenAuthentication ]
-    #permission_classes = [ IsAuthenticated ]
+    authentication_classes = [ TokenAuthentication ]
+    permission_classes = [ IsAuthenticated ]
 
 
 class ComunicadoClienteListView(generics.ListAPIView):
