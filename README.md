@@ -6,7 +6,7 @@ A Comunicação de perda simplificada foi criada para gerenciar de forma eficien
 Este repositório é destinado a parte **backend** do projeto. Para mais informações da aplicação Frontend desenvolvida com TypeScript/Angular confira o repositório [proagro-cps-frontend](https://github.com/Regismrs/proagro-cps-frontend).
 
 ## Detalhes do projeto
-O **backend** da aplicação CPS é desenvolvido em Python, utilizando o Django Rest Framework, para criar uma API robusta, escalável e de fácil manutenção, garantindo a segurança e a confiabilidade dos dados. Mais detalhes sobre a api e exemplos de uso podem ser obtidos em [apiary.com](https://agrocps.docs.apiary.io/#).
+O **backend** da aplicação CPS é desenvolvido em Python, utilizando o Django Rest Framework, para criar uma API robusta, escalável e de fácil manutenção, garantindo a segurança e a confiabilidade dos dados. Mais detalhes sobre a api e exemplos de uso podem ser obtidos em [https://agrocps.docs.apiary.io/#](https://agrocps.docs.apiary.io/#).
 
 # 2.Instalação
 
